@@ -1,5 +1,4 @@
-print("Hello git world")
-print ("This is a new file")
+print("Starting the new Python file")
 import tkinter as tk
 from tkinter import messagebox
 
