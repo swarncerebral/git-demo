@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Pharma Home</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card shadow p-4 text-center" style="width: 400px;">
+        <img src="/css/pharma-logo.svg" alt="Pharma Logo" class="logo">
+        <h2 class="mb-3">Welcome, <span th:text="${username}"></span>!</h2>
+        <p class="lead">This is the Pharma Industry Home Page.</p>
+        <div class="my-3">
+            <span class="badge bg-success">Pharma Portal</span>
+        </div>
+        <a href="/logout" class="btn btn-outline-primary mt-3">Logout</a>
+    </div>
+</div>
+</body>
+</html>

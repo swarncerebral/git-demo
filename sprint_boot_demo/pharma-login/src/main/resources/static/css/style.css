@@ -1,0 +1,13 @@
+body {
+    background: #f8fafc;
+}
+.card {
+    border-radius: 1rem;
+}
+.btn-primary {
+    background: #1976d2;
+    border: none;
+}
+.btn-primary:hover {
+    background: #1565c0;
+}
